@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="50dp"
+    android:keyWidth="25%p">
+
+    <Row>
+        <Key android:codes="55" android:keyLabel="7"></Key>
+        <Key android:codes="56" android:keyLabel="8"></Key>
+        <Key android:codes="57" android:keyLabel="9"></Key>
+        <Key android:codes="-5" android:keyLabel="删除" ></Key>
+    </Row>
+    <Row>
+        <Key android:codes="52" android:keyLabel="4"></Key>
+        <Key android:codes="53" android:keyLabel="5"></Key>
+        <Key android:codes="54" android:keyLabel="6"></Key>
+        <Key android:codes="-4" android:keyHeight='150dp' android:keyLabel="确定"></Key>
+    </Row>
+    <Row>
+        <Key android:codes="49" android:keyLabel="1"></Key>
+        <Key android:codes="50" android:keyLabel="2"></Key>
+        <Key android:codes="51" android:keyLabel="3"></Key>
+    </Row>
+    <Row>
+        <Key android:codes="-3" android:keyLabel="AC"></Key>
+        <Key android:codes="48" android:keyLabel="0"></Key>
+        <Key android:codes="46" android:keyLabel="."></Key>
+    </Row>
+</Keyboard>

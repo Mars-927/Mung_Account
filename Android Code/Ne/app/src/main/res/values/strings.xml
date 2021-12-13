@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">绿沙记账</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="yonghu">&#xe636;</string>
+    <string name="tubiao">&#xeb95;</string>
+    <string name="jiantou">&#xe64e;</string>
+
+
+    <string name="LoginPost_Url">http://39.102.76.225:8000/user/login</string>
+    <string name="SignPost_Url">http://39.102.76.225:8000/user/signin</string>
+    <string name="synctoserver">http://39.102.76.225:8000/account/toserver</string>
+    <string name="synctoclient">http://39.102.76.225:8000/account/toclient</string>
+
+</resources>

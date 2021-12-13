@@ -1,0 +1,82 @@
+<!--suppress DeprecatedClassUsageInspection -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridView
+        android:id="@+id/frag_record_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@color/white"
+        android:numColumns="4"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"></GridView>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/frag_record_keyboard"
+        android:layout_width="wrap_content"
+        android:background="@null"
+        android:layout_height="wrap_content"
+
+        android:keyBackground="@color/gery"
+        android:keyTextColor="@color/text"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:layout_alignParentBottom="true"
+        android:shadowRadius="0">
+    </android.inputmethodservice.KeyboardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/frag_record_keyboard"
+        android:background="@color/gery">
+
+        <ImageView
+            android:id="@+id/frag_record_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:src="@drawable/calendar"></ImageView>
+
+
+        <TextView
+            android:id="@+id/frag_record_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/frag_record_iv"
+            android:textColor="@color/text"
+            android:textSize="12sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/frag_record_ed_money"
+            android:background="@color/gery"
+            android:inputType="numberDecimal"
+            android:text="￥"
+            android:textColor="@color/text"></TextView>
+
+        <EditText
+            android:id="@+id/frag_record_ed_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/gery"
+            android:inputType="number"
+            android:paddingRight="35dp"
+            android:textColor="@color/text"></EditText>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
