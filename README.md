@@ -25,15 +25,15 @@
    2. 图表分析：折线图——显示日收支金额；饼状图——显示月收支类别比例
 
 ### 程序效果
+<div align="center">
+    <img src="images/1.jpg" width="20%">
+    <img src="images/2.jpg" width="20%">
+    <img src="images/3.jpg" width="20%">
+</div>
 
-![5](images/5.png)
+<div align="center">
+    <img src="images/4.jpg" width="20%">
+    <img src="images/5.png" width="20%">
+    <img src="images/6.jpg" width="20%">
+</div>
 
-![6](images/6.jpg)
-
-![1](images/1.jpg)
-
-![2](images/2.jpg)
-
-![3](images/3.jpg)
-
-![4](images/4.jpg)
